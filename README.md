@@ -17,15 +17,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 `
 
-## Spark baselines (example)
-\`\`\`bash
+## Spark baselines
+`bash
 bash scripts/run_spark.sh
-\`\`\`
 
 ## Dashboard
-\`\`\`bash
+`bash
 bash scripts/run_dashboard.sh
-\`\`\`
 
 ## Notes
 - Data and large models are ignored by `.gitignore`.
