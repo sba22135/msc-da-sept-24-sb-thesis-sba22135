@@ -30,3 +30,9 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Spark temp
+.spark_tmp/
+
+# Prevent future large numpy bundles
+results/*.npz
