@@ -1,0 +1,32 @@
+# data & models (never push these)
+data/
+datasets/
+models/
+checkpoints/
+*.parquet
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# results heavy artifacts
+results/*.parquet
+results/*_raw/
+results/*_cache/
+
+# Python/OS noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
