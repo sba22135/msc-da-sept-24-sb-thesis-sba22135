@@ -11,11 +11,11 @@ This repository contains the code for my MSc Data Analytics thesis.
 - `figures/` — thesis figures (optional)
 
 ## Setup
-\`\`\`bash
+`bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-\`\`\`
+`
 
 ## Spark baselines (example)
 \`\`\`bash
