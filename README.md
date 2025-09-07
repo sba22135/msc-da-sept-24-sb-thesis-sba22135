@@ -19,11 +19,11 @@ pip install -r requirements.txt
 
 ## Spark baselines
 `bash
-bash scripts/run_spark.sh
+bash scripts/run_spark.sh`
 
 ## Dashboard
 `bash
-bash scripts/run_dashboard.sh
+bash scripts/run_dashboard.sh`
 
 ## Notes
 - Data and large models are ignored by `.gitignore`.
